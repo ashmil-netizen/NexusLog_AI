@@ -1,0 +1,47 @@
+STAGE_FEATURES = {
+    "A": [
+        "purchase_month",
+        "purchase_dayofweek",
+        "purchase_hour",
+        "customer_state",
+        "item_count",
+        "item_price_total",
+        "item_freight_total",
+        "seller_count",
+    ],
+    "B": [
+        "purchase_month",
+        "purchase_dayofweek",
+        "purchase_hour",
+        "customer_state",
+        "item_count",
+        "item_price_total",
+        "item_freight_total",
+        "seller_count",
+        "approval_elapsed_hours",
+        "payment_type",
+        "payment_installments",
+        "payment_value_total",
+    ],
+    "C": [
+        "purchase_month",
+        "purchase_dayofweek",
+        "purchase_hour",
+        "customer_state",
+        "item_count",
+        "item_price_total",
+        "item_freight_total",
+        "seller_count",
+        "approval_elapsed_hours",
+        "payment_type",
+        "payment_installments",
+        "payment_value_total",
+        "handover_elapsed_hours",
+    ],
+}
+
+STAGE_NAMES = {
+    "A": "Order placement",
+    "B": "Payment approval",
+    "C": "Carrier handover",
+}
